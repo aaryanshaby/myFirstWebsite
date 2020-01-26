@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+
+#mainNavbar {
+    /* background-color: black; */
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#mainNavbar .nav-link {
+    color: #CCCCCC
+}
+
+
+#mainNavbar .nav-link:hover {
+    color: white
+}
+
+
+#frontpic {
+    width: 100%;
+    height:auto
+}
+
+.centeredtext {
+    position : absolute;
+    top : 30%;
+    left : 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.centeredtext p{
+    text-align: center;
+    font-family:'Indie Flower', cursive;
+    
+    color: rgb(255,256,256,0.9);
+
+}
+
+.normal{
+
+    font-size: 2rem;
+    position : absolute;
+    top : 30%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+}
+
+.smaller{
+
+    font-size: 1rem;
+    position : absolute;
+    top : 20%;
+    left : 50%;
+    
+    transform: translate(-50%, -70%);
+}
+
+.smallest{
+
+    font-size: 0.5rem;
+    position : absolute;
+    top : 20%;
+    left : 50%;
+
+    transform: translate(-50%, -90%);
+}
+
+#knowmore {
+    color: orange;
+    border-color: orange;
+    width :auto;
+    font-size: 1rem;
+}
+
+#knowmore:hover{
+    color: orange;
+    background-color: rgb(255,165,00,0.2);
+}
+    
